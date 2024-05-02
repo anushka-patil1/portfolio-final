@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mynavbar{
+   background: linear-gradient(to right,rgb(146, 145, 158),rgb(50, 43, 114));
+   position: fixed !important;
+   width: 100%;
+   z-index: 100;
+
+}
+#head{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.nav-link{
+    /* background-color: red; */
+    margin: 0px 10px;
+    font-weight: bolder;
+    font-size: 20.0px;
+}
+.nav-link:hover{
+    color: rgb(180, 172, 190) !important;
+}
+
+/* navbar styling ends here */
+
+
+.section1{
+    /* background-color: pink; */
+    width: 100%;
+    position: relative  ;
+    height: 90vh;    
+}
+.part-one{
+    /* background-color: yellow; */
+    width: 60%;
+    padding: 5%;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+#my-span{
+    background-color: rgb(65, 57, 139);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 2% 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    color: rgb(183, 178, 235); 
+}
+#my-heading{
+    font-family: Arial Black;
+    margin: 1% 0%;
+    font-size: 60px;
+}
+.mylinks{
+   font-size: 13px;
+    /* background-color: red; */
+    color: black; 
+}
+
+/* first section home styling ends here */
+
+.section2{
+    width: 100%;
+    position: relative;
+    height: 60vh;
+    /* background-color: rgb(83, 201, 14); */
+  
+   
+  
+}
+.main-container{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    bottom: 5%;
+    display: flex;
+      box-shadow: 0px 0px 10px black;
+      /* background-color: aqua; */
+       border-radius: 10px;
+}
+.first-div{
+    width: 50%;
+    /* background-color: yellow; */
+}
+.myinfo{
+    width: 50%;
+    /* background-color: rgb(110, 89, 61); */
+}
+
+/* about section ends here */
+
+.section3{
+    width: 100%;
+    height: 90vh;
+    /* background-color: red;  */
+    position: relative;
+    /* z-index: -4; */
+
+}
+.container{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width:90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: rebeccapurple; */
+}
+.mycard{
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 10px  black;
+    border-radius: 10px !important;
+    transition: 1s ease;
+    height: 70%;
+    margin: 0px 10px;
+
+}
+.mycard:hover{
+    transform: scale(1.1) !important;
+    cursor: pointer;
+}
+.card-heading{
+    color: royalblue;
+    font-weight: bolder;
+}
+.mytext{
+    font-size: 15px;
+}
+
+/* project section ends here */
+
+.section4{
+    /* background-color: aqua; */
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+.cards{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    height: 60%;
+    /* background-color: rebeccapurple !important; */
+    display: flex;
+}
+.subcards{
+   width: 20%;
+   height:100%;
+   /* border: 2px solid black; */
+   margin: 1% 1%;
+   box-shadow: 0px 0px 10px rgb(22, 22, 26);
+   border-radius: 10px;
+   color: royalblue;
+   text-align: center;
+   padding-top: 8%;
+   font-size: 20px;
+   font-family: Arial black;
+   background-color: lightgray;
+   cursor: pointer;
+  transition: 1s ease;
+}
+.subcards:hover{
+    transform: scale(1.1);
+}
+
+ /* skills section ends here */
+
+ .section5{
+    width: 100%;
+    height: 90vh;
+    /* border: 2px solid red; */
+    position: relative;
+    display: flex;
+   
+ }
+ .myimage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    opacity: .3;
+    z-index: -4;
+ }
+ .contcat-info{
+    width: 40%;
+    /* background-color: brown; */
+    height: 100%;
+    
+ }
+#contact-m{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    
+ }
+ .myicon{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 20px;
+ }
+ .first-halp{
+    width: 70%;
+    /* border: 1px solid rebeccapurple; */
+ }
+ #last-form{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid rebeccapurple; */
+    position: relative;
+    
+ }
+ 
